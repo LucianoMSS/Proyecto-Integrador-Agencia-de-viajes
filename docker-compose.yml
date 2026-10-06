@@ -1,0 +1,17 @@
+services:
+  base_datos:
+    image: mysql:8.0
+    container_name: mysql_agencia
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_clase
+      MYSQL_DATABASE: agencia_viajes
+      LANG: C.UTF-8
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./sql/agencia_viajes.sql:/docker-entrypoint-initdb.d/01_agencia_viajes.sql

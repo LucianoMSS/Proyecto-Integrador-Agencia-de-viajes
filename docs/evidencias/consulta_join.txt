@@ -1,0 +1,5 @@
+folio	cliente	asesor	destino	fecha_salida	estatus
+OP-2026-003	María Fernández Gil	Pedro Roman Dominguez Rodriguez	Ciudad de México	2026-10-20	COTIZADA
+OP-2026-001	Ana López García	Luis Luciano Matos Santos	Cancún	2026-11-10	CONFIRMADA
+OP-2026-002	Carlos Méndez Ruiz	Felipe Balan Xaman	Roma	2026-12-01	CONFIRMADA
+OP-2026-004	Jorge Castillo Pech	Luis Luciano Matos Santos	Caribe	2027-01-05	CONFIRMADA
