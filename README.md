@@ -71,8 +71,4 @@ Esto vuelve a ejecutar `sql/agencia_viajes.sql` y la carga de prueba.
 docker exec -i mysql_agencia mysql -uroot -proot_password_clase agencia_viajes < sql/consultas_evidencia.sql
 ```
 
-## Verificación
 
-Revise `criterios.md` antes de entregar.
-
-**Documento para Moodle:** el archivo editable `Documento_Entrega.docx` vive en la carpeta padre (`Integrador/`, fuera de este repositorio). Exporte a PDF después de pegar la URL del repositorio Git.
